@@ -1,0 +1,52 @@
+ .App{
+display: flex;
+ flex-direction: column;
+height: 100vh;
+
+} 
+.appHeader{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 3px 3px rgba(128, 128, 128, 0.46);
+  position: fixed;
+  min-width: 100%;
+  z-index: 100;
+  background-color: white;
+ 
+}
+.addCart{
+  font-size: 20px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.pageContent{
+display: flex;
+flex: 1;
+margin-top: 100px;
+}
+.appFooter{
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+
+.imageProduct{
+  height: 150px !important;
+  object-fit: scale-down;
+}
+.cardProduct{
+  margin: 16px;
+  text-align: center;
+}
+.badget{
+  margin: 8px;
+}
+.spin{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  
+}

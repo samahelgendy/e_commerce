@@ -1,0 +1,29 @@
+.AppFooter{
+    border-top: 1px solid rgba(32, 31, 31, 0.421);
+    padding: 20px 0;
+}
+.AppFooter .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.AppFooter .pay , .AppFooter .phone{
+    margin-bottom: 10px;
+}
+
+.AppFooter .pay a{
+    font-size: 25px;
+    margin-right: 8px;
+}
+.email .email_1 , .email .email_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email .email_1 a, .email .email_2 a{
+    text-decoration: none;
+}
+.phone .block{
+    display: block;
+}
